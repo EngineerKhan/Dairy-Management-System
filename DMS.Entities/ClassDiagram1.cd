@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DMS.Entities.Address" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Animal" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgACABAABgIQAAQAAAAAAAAAAAIAAAgA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.AnimalBreed" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalBreed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.AnimalMedicalRecord" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAAAFAAAABQAACAAAAAgAAAAAAAAAQAAgA=</HashCode>
+      <FileName>AnimalMedicalRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.AnimalSource" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.AnimalStatus" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAQA=</HashCode>
+      <FileName>AnimalStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.AnimalType" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.AttendanceStatus" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AttendanceStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Buffalo" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buffalo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Calf" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAAAAAAAEAAAABAAAAAAA=</HashCode>
+      <FileName>Calf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Cattle" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQBAAAEAwAAAEIEAAAAAAAEAAABBEAAAQAAAAIAAAA=</HashCode>
+      <FileName>Cattle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Cow" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Customer" Collapsed="true">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAAABBEAAAQBAAAAAAAAAAAAQACAAAAAgAAAIAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.DairyAnimal" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DairyAnimal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.DBTransaction" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAACAAAAAAAAAAEAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DBTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Employee" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAADAAAAAgAAAAEAAAABQAAAAAAAAAACAAAAAgAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.EmployeeAttendance" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAEAAAABAAAAAAAAAAAAAIAAAACAAAAAAAA=</HashCode>
+      <FileName>EmployeeAttendance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.EmployeeRole" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAEIAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>EmployeeRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Expense" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAABAAAAAwAAAAAAAAQCAAAEAgAAAAAAAAAAQIgA=</HashCode>
+      <FileName>Expense.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.ExpenseCategory" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAEIAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ExpenseCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.ExpenseSubType" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAEIAAAAAAgAAAAAAAAAAAAAAAgAgA=</HashCode>
+      <FileName>ExpenseSubType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Gender" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Goat" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Goat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.MasterTables" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAggAAEIAAAAAAAAAAAAAAAAAAAAAAAIgA=</HashCode>
+      <FileName>MasterTables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.MilkingEntry" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgAhAAAAIAAAAAAAgAAAAIBACAAAQAgAAAIAA=</HashCode>
+      <FileName>MilkingEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Person" Collapsed="true">
+    <Position X="9.5" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAoAAEDAgBAAUAAQAFQACgAQAAgAAACgA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.PhysicalAttributes" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAEAAAAAAAACAAAgCgAAIAgAAAAAA=</HashCode>
+      <FileName>PhysicalAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.PriceCategory" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PriceCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Size" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAQEAAAEBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Size.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.Time" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.User" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgAAAAIAgAAEAAAAAAAAAAABAAAAAQAAAAEAIgA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.Entities.UserType" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAggAAAIAAAAAAAAAAAAAAAAAAAAAAAIgA=</HashCode>
+      <FileName>UserType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS.DataLayer.MilkingDAL" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MilkingDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DMS.Entities.Colour" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAYAAAAAAAAAAABEAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Colour.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DMS.Entities.DisabilityStatus" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAACAAAAABAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>DisabilityStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DMS.Entities.MilkingShift" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAABAAAAAAA=</HashCode>
+      <FileName>MilkingShift.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

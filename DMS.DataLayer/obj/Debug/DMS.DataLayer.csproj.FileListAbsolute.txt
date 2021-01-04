@@ -1,0 +1,14 @@
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.DataLayer\bin\Debug\DMS.DataLayer.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.DataLayer\bin\Debug\DMS.DataLayer.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.DataLayer\bin\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.DataLayer\bin\Debug\DMS.Entities.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.DataLayer\obj\Debug\DMS.DataLayer.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.DataLayer\obj\Debug\DMS.DataLayer.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.DataLayer\obj\Debug\DMS.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.DataLayer\bin\Debug\DMS.DataLayer.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.DataLayer\bin\Debug\DMS.DataLayer.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.DataLayer\bin\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.DataLayer\bin\Debug\DMS.Entities.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.DataLayer\obj\Debug\DMS.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.DataLayer\obj\Debug\DMS.DataLayer.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.DataLayer\obj\Debug\DMS.DataLayer.pdb

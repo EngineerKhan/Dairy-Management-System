@@ -1,0 +1,18 @@
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.BusinessLayer\obj\Debug\DMS.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.BusinessLayer\bin\Debug\DMS.BusinessLayer.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.BusinessLayer\bin\Debug\DMS.BusinessLayer.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.BusinessLayer\bin\Debug\DMS.DataLayer.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.BusinessLayer\bin\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.BusinessLayer\bin\Debug\DMS.DataLayer.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.BusinessLayer\bin\Debug\DMS.Entities.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.BusinessLayer\obj\Debug\DMS.BusinessLayer.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.BusinessLayer\obj\Debug\DMS.BusinessLayer.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.BusinessLayer\bin\Debug\DMS.BusinessLayer.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.BusinessLayer\bin\Debug\DMS.BusinessLayer.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.BusinessLayer\bin\Debug\DMS.DataLayer.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.BusinessLayer\bin\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.BusinessLayer\bin\Debug\DMS.DataLayer.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.BusinessLayer\bin\Debug\DMS.Entities.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.BusinessLayer\obj\Debug\DMS.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.BusinessLayer\obj\Debug\DMS.BusinessLayer.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.BusinessLayer\obj\Debug\DMS.BusinessLayer.pdb

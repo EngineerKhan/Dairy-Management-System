@@ -1,0 +1,10 @@
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Entities\bin\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Entities\bin\Debug\DMS.Entities.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Entities\obj\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Entities\obj\Debug\DMS.Entities.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Entities\obj\Debug\DMS.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Entities\bin\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Entities\bin\Debug\DMS.Entities.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Entities\obj\Debug\DMS.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Entities\obj\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Entities\obj\Debug\DMS.Entities.pdb
