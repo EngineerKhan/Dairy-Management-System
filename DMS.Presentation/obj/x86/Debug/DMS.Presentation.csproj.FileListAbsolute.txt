@@ -1,0 +1,150 @@
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\DMS.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\Banner.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\ResourceDictionary.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalEntryView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalMedicalRecordEntryView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalMedicalRecordWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\Banner.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\CalfEntryView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\CalfWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\CustomerEntryView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\CustomerWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeAttendanceEntryView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeAttendanceWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeEntryView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeWorkSpaceView2.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\ExpenditureEntryView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\ExpenditureWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\LoginWindow.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\MainWindow2.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\MilkingEntryView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\MilkingWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\App.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\DMS.Presentation_MarkupCompile.cache
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\DMS.Presentation_MarkupCompile.lref
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\bin\Debug\DMS.Presentation.exe.config
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\bin\Debug\DMS.Presentation.exe
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\bin\Debug\DMS.Presentation.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\bin\Debug\DMS.BusinessLayer.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\bin\Debug\DMS.DataLayer.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\bin\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\bin\Debug\DMS.BusinessLayer.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\bin\Debug\DMS.DataLayer.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\bin\Debug\DMS.Entities.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\App.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalEntryView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalMedicalRecordEntryView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalMedicalRecordWorkSpaceView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalWorkSpaceView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\CalfEntryView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\CalfWorkSpaceView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\CustomerEntryView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\CustomerWorkSpaceView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeAttendanceEntryView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeAttendanceWorkSpaceView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeEntryView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeWorkSpaceView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\EmployeeWorkSpaceView2.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\ExpenditureEntryView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\ExpenditureWorkSpaceView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\LoginWindow.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\MainWindow.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\MainWindow2.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\MilkingEntryView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\MilkingWorkSpaceView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\DMS.Presentation.g.resources
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\DMS.Presentation.Properties.Resources.resources
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\DMS.Presentation.csproj.GenerateResource.Cache
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\DMS.Presentation.exe
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\DMS.Presentation.pdb
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\ExpenditureWorkSpaceView2.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\ExpenditureWorkSpaceView2.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\SearchBox.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\SearchBox.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalInsemnationWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalInsemnationEntryView.g.cs
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalInsemnationWorkSpaceView.baml
+C:\Users\Talha\OneDrive\VS 2010\DMS\DMS.Presentation\obj\x86\Debug\AnimalInsemnationEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\bin\Debug\DMS.Presentation.exe.config
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\DMS.Presentation.exe
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\DMS.Presentation.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\DMS.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\Banner.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\ResourceDictionary.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\SearchBox.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalMedicalRecordEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalMedicalRecordWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\Banner.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\CalfEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\CalfWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalInsemnationWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalInsemnationEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\CustomerEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\CustomerWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeAttendanceEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeAttendanceWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeWorkSpaceView2.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\ExpenditureEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\ExpenditureWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\ExpenditureWorkSpaceView2.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\LoginWindow.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\MainWindow2.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\MilkingEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\MilkingWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\SearchBox.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\App.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\DMS.Presentation_MarkupCompile.cache
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\DMS.Presentation_MarkupCompile.lref
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\bin\Debug\DMS.Presentation.exe
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\bin\Debug\DMS.Presentation.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\bin\Debug\DMS.BusinessLayer.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\bin\Debug\DMS.DataLayer.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\bin\Debug\DMS.Entities.dll
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\bin\Debug\DMS.BusinessLayer.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\bin\Debug\DMS.DataLayer.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\bin\Debug\DMS.Entities.pdb
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\App.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalMedicalRecordEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalMedicalRecordWorkSpaceView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalWorkSpaceView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\CalfEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\CalfWorkSpaceView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalInsemnationWorkSpaceView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalInsemnationEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\CustomerEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\CustomerWorkSpaceView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeAttendanceEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeAttendanceWorkSpaceView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeWorkSpaceView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\EmployeeWorkSpaceView2.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\ExpenditureEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\ExpenditureWorkSpaceView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\ExpenditureWorkSpaceView2.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\LoginWindow.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\MainWindow.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\MainWindow2.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\MilkingEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\MilkingWorkSpaceView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\DMS.Presentation.g.resources
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\DMS.Presentation.Properties.Resources.resources
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\DMS.Presentation.csproj.GenerateResource.Cache
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AdminModule2.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AdminModule2.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AdminEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AdminEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalStatusEntryView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalStatusWorkSpaceView.g.cs
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalStatusEntryView.baml
+C:\Users\Talha\OneDrive\Visual Studio 2010 - CheckedOut\DMS.Presentation\obj\x86\Debug\AnimalStatusWorkSpaceView.baml
