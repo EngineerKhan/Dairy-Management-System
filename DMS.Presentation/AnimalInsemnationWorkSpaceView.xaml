@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="DMS.Presentation.AnimalInsemnationWorkSpaceView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DMS.Presentation"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <HeaderedContentControl Style="{StaticResource SubDisplayArea}" Grid.Column="0">
+            <HeaderedContentControl.Header>
+                AnimalInsemnations
+            </HeaderedContentControl.Header>
+            <ScrollViewer>
+                <HeaderedContentControl>
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+
+                    <DataGrid Name="datagridAnimalInsemnation" AutoGenerateColumns="False" Loaded="datagridAnimalInsemnation_Loaded" IsReadOnly="True">
+                        <!--SelectedItem="{Binding Path=CurrentAnimal, Mode=TwoWay}" ItemsSource="{Binding Path=AllAnimals}"-->
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID (Tag)" Binding="{Binding CurrCattle.TagNo}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Insemnation Date" Binding="{Binding DateofInsemnation, StringFormat={}{0:dd-MM-yyyy}}"></DataGridTextColumn>
+                            
+                            <DataGridTextColumn Header="Comments" Binding="{Binding Comments}"></DataGridTextColumn>
+                            
+                        </DataGrid.Columns>
+                    </DataGrid> 
+                </HeaderedContentControl>
+            </ScrollViewer>
+        </HeaderedContentControl>
+    </Grid>
+    
+</UserControl>

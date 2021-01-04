@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="DMS.Presentation.AnimalStatusEntryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DMS.Presentation"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+    <Grid Name="EntryGrid" Loaded="EntryGrid_Loaded" DataContext="{Binding}">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+
+        <TextBlock  Grid.Column="0" Grid.Row="0" Text="Tag No:" />
+
+
+        <ComboBox Name="comboBoxAnimal" Grid.Column="1" Grid.Row="0"  Height="24" Margin="3,4,0,5" Width="150" SelectionChanged="comboBoxAnimal_SelectionChanged" />
+
+        <TextBlock  Name="textBlockFather" Grid.Column="0" Grid.Row="1" Text="Milking:" />
+        <ComboBox Name="comboBoxMilkingStatus" Grid.Column="1" Grid.Row="1" Height="24" Margin="3,4,0,5" Width="150">
+        </ComboBox>
+        <TextBlock  Name="textBlockPregnant" Grid.Column="0" Grid.Row="2" Text="Pregnant:" Visibility="Hidden" />
+        <ComboBox Name="comboBoxPregnantStatus" Grid.Column="1" Grid.Row="2" Height="24" Margin="3,4,0,5" Width="150" Visibility="Hidden">
+        <ComboBoxItem Content="True" />
+        <ComboBoxItem Content="False" />
+        </ComboBox>
+        <TextBlock  Name="textBlockStatus" Grid.Column="0" Grid.Row="3" Text="Status:" />
+        <ComboBox Name="comboBoxStatus" Grid.Column="1" Grid.Row="3" Height="24" Margin="3,4,0,5" Width="150" />
+        <!--<Button Name="SaveButton" Click="SaveButton_Click" Width="60" Height="40" Grid.Row="16" VerticalAlignment="Top" Margin="0,15,20,0" HorizontalAlignment="Left" Style="{StaticResource GlossyButton}" Command="{Binding Path=SaveCommand}">Save</Button>-->
+    </Grid>
+    
+</UserControl>

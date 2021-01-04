@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="DMS.Presentation.AnimalMedicalRecordWorkSpaceView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DMS.Presentation"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <HeaderedContentControl Style="{StaticResource SubDisplayArea}" Grid.Column="0">
+            <HeaderedContentControl.Header>
+                Medical Record Entry
+            </HeaderedContentControl.Header>
+            <ScrollViewer>
+                <HeaderedContentControl GotFocus="HeaderedContentControl_GotFocus">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right"/>
+                    </HeaderedContentControl.Header>
+
+                    <DataGrid Name="dataGrid" SelectedItem="{Binding Path=CurrentMilkEntry, Mode=OneWay}" ItemsSource="{Binding Path=AllAnimals}" AutoGenerateColumns="False" Loaded="DataGrid_Loaded" IsReadOnly="True" SelectionChanged="dataGrid_SelectionChanged" CurrentCellChanged="dataGrid_CurrentCellChanged" KeyDown="dataGrid_KeyDown">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Path=IllAnimal.ID}" Visibility="Hidden" />
+                            <DataGridTextColumn Header="Tag No" IsReadOnly="True" Binding="{Binding Path=IllAnimal.TagNo}" />
+                            <DataGridTextColumn Header="Entry Date" Binding="{Binding Path=EntryDate}"></DataGridTextColumn>
+                            <!--<DataGridTextColumn Header="Animal Type" Binding="{Binding Path=IllAnimal.Type}"></DataGridTextColumn>-->
+                            <DataGridTextColumn Header="Diagnosis" Binding="{Binding Path=Diagnosis}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Treatment" Binding="{Binding Path=Treatment}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Prognosis" Binding="{Binding Path=Prognosis}"></DataGridTextColumn>
+                            
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </HeaderedContentControl>
+            </ScrollViewer>
+        </HeaderedContentControl>
+    </Grid>
+</UserControl>

@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12FF0EB3-2605-4718-9DA0-0E84E0D68E76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DMS.Presentation</RootNamespace>
+    <AssemblyName>DMS.Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ColumnTuple.cs" />
+    <Compile Include="AnimalInsemnationWorkSpaceView.xaml.cs">
+      <DependentUpon>AnimalInsemnationWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalInsemnationEntryView.xaml.cs">
+      <DependentUpon>AnimalInsemnationEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminModule2.xaml.cs">
+      <DependentUpon>AdminModule2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEntryView.xaml.cs">
+      <DependentUpon>AdminEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalStatusEntryView.xaml.cs">
+      <DependentUpon>AnimalStatusEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalStatusWorkSpaceView.xaml.cs">
+      <DependentUpon>AnimalStatusWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenditureWorkSpaceView2.xaml.cs">
+      <DependentUpon>ExpenditureWorkSpaceView2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSettings.cs" />
+    <Compile Include="IEntryViewControl.cs" />
+    <Compile Include="IWorkSpaceViewControl.cs" />
+    <Compile Include="SearchBox.xaml.cs">
+      <DependentUpon>SearchBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WorkSpaceViewControl.cs" />
+    <Page Include="AnimalEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AnimalMedicalRecordEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AnimalMedicalRecordWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AnimalWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Banner.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CalfEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CalfWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AnimalInsemnationWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AnimalInsemnationEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminModule2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AnimalStatusEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AnimalStatusWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomerEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomerWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EmployeeAttendanceEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EmployeeAttendanceWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EmployeeEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EmployeeWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EmployeeWorkSpaceView2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ExpenditureEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ExpenditureWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ExpenditureWorkSpaceView2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LoginWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="AnimalEntryView.xaml.cs">
+      <DependentUpon>AnimalEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalMedicalRecordEntryView.xaml.cs">
+      <DependentUpon>AnimalMedicalRecordEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalMedicalRecordWorkSpaceView.xaml.cs">
+      <DependentUpon>AnimalMedicalRecordWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalWorkSpaceView.xaml.cs">
+      <DependentUpon>AnimalWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Banner.xaml.cs">
+      <DependentUpon>Banner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CalfEntryView.xaml.cs">
+      <DependentUpon>CalfEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CalfWorkSpaceView.xaml.cs">
+      <DependentUpon>CalfWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerEntryView.xaml.cs">
+      <DependentUpon>CustomerEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerWorkSpaceView.xaml.cs">
+      <DependentUpon>CustomerWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAttendanceEntryView.xaml.cs">
+      <DependentUpon>EmployeeAttendanceEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAttendanceWorkSpaceView.xaml.cs">
+      <DependentUpon>EmployeeAttendanceWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeEntryView.xaml.cs">
+      <DependentUpon>EmployeeEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeWorkSpaceView.xaml.cs">
+      <DependentUpon>EmployeeWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeWorkSpaceView2.xaml.cs">
+      <DependentUpon>EmployeeWorkSpaceView2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenditureEntryView.xaml.cs">
+      <DependentUpon>ExpenditureEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenditureWorkSpaceView.xaml.cs">
+      <DependentUpon>ExpenditureWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MainWindow2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MilkingEntryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MilkingWorkSpaceView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ResourceDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SearchBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainWindow2.xaml.cs">
+      <DependentUpon>MainWindow2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MilkingEntryView.xaml.cs">
+      <DependentUpon>MilkingEntryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MilkingWorkSpaceView.xaml.cs">
+      <DependentUpon>MilkingWorkSpaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMS.BusinessLayer\DMS.BusinessLayer.csproj">
+      <Project>{3981C51F-3686-4278-90E5-355C57F12AA8}</Project>
+      <Name>DMS.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMS.DataLayer\DMS.DataLayer.csproj">
+      <Project>{A6F2884C-8164-408E-9F2B-70941108F838}</Project>
+      <Name>DMS.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DMS.Entities\DMS.Entities.csproj">
+      <Project>{2D444A45-BB65-440E-8011-51F4E2AB731E}</Project>
+      <Name>DMS.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

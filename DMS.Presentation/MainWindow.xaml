@@ -1,0 +1,189 @@
+﻿<Window x:Class="DMS.Presentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMS.Presentation"
+        mc:Ignorable="d"
+        Title="Dairy Management System" 
+        WindowState="Maximized"
+        Background="#FFEDEDED" Loaded="Window_Loaded">
+
+
+    <Window.Resources>
+        <!--<DataTemplate DataType="{x:Type vm:EmployeeWorkspaceViewModel}">
+            <v:EmployeeWorkspaceView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:DepartmentWorkspaceViewModel}">
+            <v:DepartmentWorkspaceView />
+        </DataTemplate>-->
+
+        <Style TargetType="{x:Type TextBox}">
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="Height" Value="18" />
+        <Setter Property="FontSize" Value="10" />
+        <Setter Property="Margin" Value="2" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="ToolTip"
+          Value="{Binding RelativeSource={RelativeSource Self},
+                          Path=(Validation.Errors)[0].ErrorContent}"/>
+            </Trigger>
+        </Style.Triggers>
+
+    </Style>
+        
+        
+        <!--Local template used for loyalty board-->
+        <DataTemplate x:Key="TransactionItem">
+            <DataTemplate.Resources>
+                <ResourceDictionary Source="../ResourceDictionary.xaml"/>
+            </DataTemplate.Resources>
+            <Border Style="{StaticResource DetailBorder}" Margin="2,2,2,0">
+                <StackPanel>
+                    <TextBlock Text="{Binding Path=DisplayName}" FontWeight="Bold" />
+                    <TextBlock Text="{Binding Path=Position}" FontStyle="Italic" />
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Transaction Date/Time:" />
+                        <TextBlock Text="{Binding Path=TransTime}" />
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+
+
+    <Grid>
+
+        <!--<Menu Height="20" HorizontalAlignment="Left" Margin="20,0,0,0" Name="menu1" VerticalAlignment="Top" Width="1280">
+            <MenuItem Header="Animals" Click="Animals_MenuItem_Click">
+                <MenuItem Header="Registration/Update"  Click="MenuItem_Animals_Registration_Click"></MenuItem>
+                <MenuItem Header="Milk_Entry"  Click="MenuItem_Animals_Milk_Entry_Click" ></MenuItem>
+                <MenuItem Header="Feeding"  Click="MenuItem_Animals_Feeding_Click"></MenuItem>
+                <MenuItem Header="Health"  Click="MenuItem_Animals_Health_Click"></MenuItem>
+                <MenuItem Header="Scheduled Medicine"  Click="MenuItem_Animals_ScheduledMedicine_Click"></MenuItem>
+                <MenuItem Header="Status"  Click="MenuItem_Animals_Status_Click" ></MenuItem>
+                <MenuItem Header="Calf Record"  Click="MenuItem_Animals_CalfRecord_Click"></MenuItem>
+                <MenuItem Header="Basic Info"  Click="MenuItem_Animals_BasicInfo_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Customers">
+                <MenuItem Header="Registration/Update"></MenuItem>
+                <MenuItem Header="Milk Sales"></MenuItem>
+                <MenuItem Header="Billing"></MenuItem>
+                <MenuItem Header="Feedback"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Milk_Entrys">
+                <MenuItem Header="Registration/Update"></MenuItem>
+                <MenuItem Header="Leave Record"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="About" Click="MenuItem_About_Click"></MenuItem>
+                <MenuItem Header="Application Feedback"></MenuItem>
+                <MenuItem Header="Contact Us"></MenuItem>
+                --><!--<MenuItem Header="Localization">
+                    <MenuItem Header="Arabic" Click="MenuItem_ArabicLocal_Click"></MenuItem>
+                    <MenuItem Header="Urdu" Click="MenuItem_UrduLocal_Click"></MenuItem>
+                    <MenuItem Header="Francais" Click="MenuItem_FrenchLocal_Click"></MenuItem>
+                </MenuItem>--><!--
+            </MenuItem>
+        </Menu>-->
+
+        <!--<local:Banner VerticalAlignment="Top" />-->
+        <Frame Name="bannerFrame" Height="50" VerticalAlignment="Top" Margin="20,20,20,0" Source="Banner.xaml" />
+        <Button Name="buttonRefresh" Click="buttonRefresh_Click" Width="60" Height="40" VerticalAlignment="Top" Margin="25,25,20,0" HorizontalAlignment="Left" Style="{StaticResource GlossyButton}" Command="{Binding Path=SaveCommand}">Refresh</Button>
+
+        <TabControl Name="mainTab"  Padding="0" Margin="70,80,350,30" >
+            <!--Left,Top,Right, Bottom-->
+            <TabItem GotFocus="TabItem_Animals_GotFocus">
+                <TabItem.Header>
+                    Animals
+                </TabItem.Header>
+                <ContentControl Margin="10">
+                    <Frame Name="animalFrame" Source="AnimalWorkSpaceView.xaml"></Frame>
+                </ContentControl>
+            </TabItem>
+            <TabItem GotFocus="TabItem_Calfs_GotFocus">
+                <TabItem.Header>
+                    Calfs
+                </TabItem.Header>
+                <ContentControl Margin="10">
+                    <Frame Name="calfFrame" Source="CalfWorkSpaceView.xaml"></Frame>
+                </ContentControl>
+            </TabItem>
+            <TabItem GotFocus="TabItem_Milking_GotFocus">
+                <TabItem.Header>
+                    Milking
+                </TabItem.Header>
+                <ContentControl Margin="10">
+                    <Frame Name="milkingFrame" Source="MilkingWorkSpaceView.xaml"></Frame>
+                </ContentControl>
+            </TabItem>
+            <TabItem GotFocus="TabItem_AnimalMedicineRecord_GotFocus">
+                <TabItem.Header>
+                    Animal Medicine Record
+                </TabItem.Header>
+                <ContentControl Margin="10">
+                    <Frame Name="animalMedicineRecordFrame" Source="AnimalMedicalRecordWorkSpaceView.xaml"></Frame>
+                </ContentControl>
+            </TabItem>
+            <TabItem GotFocus="TabItem_EmployeeAttendance_GotFocus">
+                <TabItem.Header>
+                    Attendance
+                </TabItem.Header>
+                <ContentControl Margin="10">
+                    <Frame Name="employeeAttendanceFrame" Source="EmployeeAttendanceWorkSpaceView.xaml"></Frame>
+                </ContentControl>
+            </TabItem>
+            <TabItem GotFocus="TabItem_Expenditures_GotFocus">
+                <TabItem.Header>
+                    Expenditures
+                </TabItem.Header>
+                <ContentControl Margin="10">
+                    <!--Content="{Binding Path=.DepartmentWorkspace}"-->
+                    <Frame Name="expenditureFrame" Source="ExpenditureWorkSpaceView.xaml"></Frame>
+                </ContentControl>
+            </TabItem>
+            <TabItem GotFocus="TabItem_Customers_GotFocus">
+                <TabItem.Header>
+                    Customers
+                </TabItem.Header>
+                <ContentControl Margin="10"> 
+                                <!--Content="{Binding Path=.DepartmentWorkspace}"-->
+                    <Frame Name="customerFrame" Source="CustomerWorkSpaceView.xaml"></Frame>
+                </ContentControl>
+            </TabItem>
+            <TabItem GotFocus="TabItem_Employees_GotFocus">
+                <TabItem.Header>
+                    Employees
+                </TabItem.Header>
+                <ContentControl Margin="10">
+                    <Frame Name="employeeFrame" Source="EmployeeWorkSpaceView.xaml"></Frame>
+                </ContentControl>
+            </TabItem>
+
+        </TabControl>
+
+        <!--<HeaderedContentControl Style="{StaticResource DisplayArea}" Margin="20,80,30,30" HorizontalAlignment="Left" Width="170" Height="Auto" VerticalAlignment="Top">
+            <HeaderedContentControl.Header>
+                Latest Transactions
+            </HeaderedContentControl.Header>
+            <ItemsControl Name="latestTransactionsItemControl" ItemsSource="{Binding Path=GlobalSettings.TransList}" ItemTemplate="{StaticResource TransactionItem}" /> --><!--ItemsSource="{Binding Path=LongServingEmployees, Mode=OneTime}"--><!-- 
+        </HeaderedContentControl>-->
+        <!--<Frame Name="dataQueryFrame" HorizontalAlignment="Left" Padding="0" Margin="20,128,20,30" Source="EmployeeEntryView.xaml" Width="180" NavigationUIVisibility="Hidden">
+            
+        </Frame>-->
+
+        <HeaderedContentControl Style="{StaticResource DisplayArea}" Margin="30,80,45,30" HorizontalAlignment="Right" Width="250" Height="Auto" VerticalAlignment="Top" MouseDoubleClick="HeaderedContentControl_MouseDoubleClick">
+            <HeaderedContentControl.Header>
+                Enter New Entry
+            </HeaderedContentControl.Header>
+            <ItemsControl ItemsSource="{Binding Path=LongServingEmployees, Mode=OneTime}" ItemTemplate="{StaticResource TransactionItem}" />
+        </HeaderedContentControl>
+        <Frame Name="dataEntryFrame" HorizontalAlignment="Right" Padding="0" Margin="20,128,25,30" Source="AnimalEntryView.xaml" Width="260" NavigationUIVisibility="Hidden">
+            
+        </Frame>
+
+    </Grid>
+</Window>

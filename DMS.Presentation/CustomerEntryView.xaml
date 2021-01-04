@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="DMS.Presentation.CustomerEntryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DMS.Presentation"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Name="EntryGrid" Loaded="EntryGrid_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="ID:" />
+        <TextBox Name="textBoxID" Grid.Column="1" Grid.Row="0"  Width="150" />       
+        
+        <TextBlock Grid.Column="0" Grid.Row="1" Text="Name:" />
+        <TextBox Name="textBoxName" Grid.Column="1" Grid.Row="1" Text="{Binding Path=Name}" Width="150" />       
+
+        <TextBlock Grid.Column="0" Grid.Row="2" Text="Contact No:" />
+        <TextBox Name="textBoxContactNo" Grid.Column="1" Grid.Row="2" Text="{Binding Path=ContactNo}" Width="150" />
+
+        <TextBlock Grid.Column="0" Grid.Row="3" Text="CNIC No:" />
+        <TextBox Name="textBoxCNIC" Grid.Column="1" Grid.Row="3" Text="{Binding Path=FirstName}" Width="150" />
+        
+        <TextBlock Grid.Column="0" Grid.Row="4" Text="Address:" />
+        <TextBox Name="textBoxAddress" Grid.Column="1" Grid.Row="4" Text="{Binding Path=CurrentAddress}" Width="150" />
+
+        <!--Commented March 13-->
+        <!--<TextBlock Grid.Column="0" Grid.Row="5" Text="Milk Type:" />
+        <ComboBox Name="comboBoxMilkType" Grid.Column="1" Grid.Row="5" Width="150" SelectedValuePath="."  />
+
+        <TextBlock Grid.Column="0" Grid.Row="6" Text="Price Catg:" />
+        <ComboBox Name="comboBoxPriceCategory" Grid.Column="1" Grid.Row="6" Width="150" SelectedValuePath="."  />
+        
+        <TextBlock Grid.Column="0" Grid.Row="7" Text="Quantity:" />
+        <TextBox Name="textBoxQuantity" Grid.Column="1" Grid.Row="7" Text="{Binding Path=FirstName}" Width="150" />
+                     
+        <TextBlock Grid.Column="0" Grid.Row="8" Text="Time:" />
+        <ComboBox Name="comboBoxTime" Grid.Column="1" Grid.Row="8" Width="150" SelectedValuePath="."  />-->
+
+        <TextBlock Grid.Column="0" Grid.Row="9" Text="Reg. Date:" />
+        <DatePicker Name="datePickerRegistrationDate" Grid.Column="1" Grid.Row="9" Width="147" />
+
+        <!--<Button x:Name="SaveButton" Click="SaveButton_Click" Width="60" Height="45" Grid.Row="10" VerticalAlignment="Top" Margin="0,15,0,-34" HorizontalAlignment="Left" Style="{StaticResource GlossyButton}" Command="{Binding SaveCommand}" Content="Save" Grid.RowSpan="2"/>-->
+        
+    </Grid>
+</UserControl>
